@@ -1,4 +1,4 @@
-# Tienda.github.io
+# Tienda
 Este es un proyecto de una pagina de una tienda. Tiene un archivo principal que seria el index.html, un sistema de inicio de sesión y un archivo JSON con datos de los productos. La pagina está con HTML, CSS y JavaScript.
 
 ## Índice
@@ -25,12 +25,12 @@ El proyecto consiste en una aplicación web estática que muestra productos esco
 ## Capturas de pantalla
 
 **Login:**  
+<img width="567" height="466" alt="image" src="https://github.com/user-attachments/assets/78dec981-66fb-47e4-8962-a2b0a953f015" />
 
-<img src="https://github.com/user-attachments/assets/75e9ba3c-536a-46da-a254-422a3f64395f" width="400" alt="Login" />
 
 **Página principal:**  
+<img width="1366" height="629" alt="image" src="https://github.com/user-attachments/assets/83b1ff98-d6a4-4efd-9d50-c4b619dc80a2" />
 
-<img src="https://github.com/user-attachments/assets/13bc41aa-823f-4c11-8ecb-e47dbaa0b6d9" width="800" alt="Página principal" />
 
 ## Estructura del proyecto
 - `index.html` – Página principal que muestra los productos.  

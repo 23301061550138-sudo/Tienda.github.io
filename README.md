@@ -204,9 +204,7 @@ cd Tienda
 ```
 
 ### Mejoras futuras
-
-- Integrar un backend real.  
-- Añadir carrito de compras.  
-- Mejorar el sistema de autenticación.  
+   
+- Mejorar el sistema de inicio de sesion para que si funcione.  
 - Agregar manejo de usuarios con almacenamiento seguro.  
-- Implementar base de datos externa o almacenamiento local avanzado.
+- Mejorar el diseño y estructura de la pagina

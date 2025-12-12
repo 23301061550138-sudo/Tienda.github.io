@@ -1,0 +1,360 @@
+/* ==================== GLOBAL ==================== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: #0057b7;
+    color: white;
+}
+header .logo img { height: 70px; width: 70px; }
+.header-right, .header-right * { display: flex; align-items: center; gap: 15px; }
+nav button {
+    background: transparent;
+    filter: invert(1) brightness(0);
+    border: none;
+    color: #c8d2ff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+nav button:hover { color: white; }
+
+footer {
+    background: #0057b7;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-top: 2px solid #004494;
+    margin-top: auto;
+}
+
+/* ==================== SEARCH ==================== */
+.search-categories-container {
+    display: flex;
+    border-radius: 20px 20px;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background: #f4f6f8;
+}
+
+.search-box {
+    position: relative;  
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo del input */
+.search-box input {
+    padding: 10px 40px 10px ; 
+    width: 280px;
+    border-radius: 20px  20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 6px 15px rgba(70, 69, 69, 0.2);
+}
+
+#searchInput:focus {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Lupita a la derecha */
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #666;
+    pointer-events: none; /* para que no interfiera al escribir */
+}
+
+/* Estilos para el select, igual que tienes */
+#categorySelect {
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+#categorySelect:focus {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* ==================== PRODUCTOS ==================== */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 240px));
+    gap: 20px 40px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 60px auto 20px auto;
+}
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+
+.product-card:hover { box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+.product-card img { width: 100%; height: 180px; object-fit: cover; border-radius: 10px; cursor: pointer; }
+.product-card h3 { margin: 8px 0; font-size: 16px; line-height: 1.2em; max-height: 2.4em; overflow: hidden; cursor: pointer; }
+.product-card p { color: #007bff; margin: 0 0 8px; font-weight: bold; }
+.add-btn {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50%;
+    margin: 10px auto 0 auto;
+}
+
+/* ==================== BOTONES ICONOS ==================== */
+.cart-btn, .favorites-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0;
+    transition: color 0.3s;
+}
+.favorite-btn svg { fill: currentColor; transition: fill 0.3s; }
+.favorite-btn.active { color: #e63946; }
+.favorite-btn span { font-weight: 600; font-size: 16px; user-select: none; }
+
+/* ==================== CART SIDEBAR ==================== */
+.cart-sidebar {
+    position: fixed;
+    top: 0; right: -400px;
+    width: 350px;
+    height: 100vh;
+    background: white;
+    border-left: 2px solid #ddd;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+.cart-sidebar.active { right: 0; }
+.cart-footer { margin-top: auto; display: flex; flex-direction: column; gap: 10px; }
+.buy-btn, .clear-cart-btn, .remove-btn {
+    border: none;
+    border-radius: 8-10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+.buy-btn { background: #ff9800; padding: 10px; width: 100%; }
+.buy-btn:hover { background: #e67c00; }
+.clear-cart-btn { background: #e63946; padding: 10px; width: 100%; }
+.clear-cart-btn:hover { background: #c5303f; }
+.remove-btn { background: #e63946; padding: 5px 10px; margin-top: 10px; }
+
+/* ==================== PRODUCT DETAIL ==================== */
+.product-detail-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    color: #333;
+    flex-wrap: wrap;
+    cursor: default;
+}
+
+.image-container, .info-container { flex: 1 1 400px; max-width: 400px; }
+.image-container img { width: 100%; border-radius: 10px; object-fit: contain; transition: transform 0.3s}
+.info-container h2 { margin-bottom: 15px; }
+.info-container p { flex-grow: 1; line-height: 1.4; margin-bottom: 25px; color: #444; }
+.info-container h3 { font-size: 1.5rem; color: #007bff; margin-bottom: 20px; }
+.back-btn, .close-cart-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px;
+}
+.back-btn:hover, .close-cart-btn:hover { background: #0056b3; box-shadow: 0 5px 12px rgba(0,0,0,0.3); }
+
+/* ==================== PRODUCT DESCRIPTION ==================== */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;   
+    width: 90%;            
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    color: #0057b7;
+    font-size: 26px;
+}
+
+.login-container input,
+.login-container button {
+    width: 100%;            /* mismo ancho */
+    padding: 14px;          /* mismo alto */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box; /* que ancho y padding no rompan la caja */
+}
+
+.login-container input {
+    margin-bottom: 12px;    /* espacio entre inputs */
+    border: 1px solid #ccc;
+    transition: box-shadow 0.3s ease;
+}
+
+.login-container input:focus {
+    box-shadow: 0 0 8px rgba(0,87,183,0.5);
+    border-color: #0057b7;
+}
+
+.login-container button {
+    background: #0057b7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-bottom: 12px;
+}
+
+.login-container button:hover {
+    background: #004494;
+}
+
+.login-container span {
+    color: #0057b7;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.login-container span:hover {
+    color: #003366;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #4b63b1;
+    border: none;
+    border-radius: 25px; /* redondeado completo */
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 30px;
+        margin: 50px 20px;
+    }
+
+    .login-container h2 {
+        font-size: 24px;
+    }
+
+    .login-container input,
+    .login-container button,
+    .login-container span {
+        font-size: 15px;
+    }
+}
+
+/* Historial de busqueda */
+.history-box {
+    position: absolute;
+    top: 55px; 
+    left: 0;
+    width: 280px;
+
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+    max-height: 220px;
+    overflow-y: auto;
+
+    display: none;
+    z-index: 999;
+}
+
+
+.history-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.history-item:hover {
+    background: #eee;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+    header { justify-content: center; text-align: center; }
+    .product-detail-container { flex-direction: column; text-align: center; }
+    .login-container { margin: 30px 20px; padding: 20px; }
+}

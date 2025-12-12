@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1,
+    "title": "Audífonos inalámbricos WH-CH520",
+    "price": 75.00,
+    "category": "electronica",
+    "image": "https://mxsonyb2c.vtexassets.com/arquivos/ids/317068-800-800?v=638747999295330000&width=800&height=800&aspect=true",
+    "description": "Disfruta de hasta 50 horas de batería con los audífonos inalámbricos WH-CH520.",
+    "features": [
+      "Hasta 50 horas de batería",
+      "Diseño cómodo y ligero",
+      "Sonido claro y ajustable",
+      "Compatible con Sony Headphones Connect"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Silla Gamer RGB",
+    "price": 299.00,
+    "category": "gaming",
+    "image": "https://m.media-amazon.com/images/I/51yvjToiOXL.jpg",
+    "description": "Silla gamer ergonómica con iluminación RGB y soporte lumbar.",
+    "features": [
+      "Iluminación RGB",
+      "Soporte lumbar",
+      "Reposabrazos ajustables",
+      "Diseño ergonómico"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Teclado Mecánico",
+    "price": 95.00,
+    "category": "computadoras",
+    "image": "https://m.media-amazon.com/images/I/710B-MnAc9L.jpg",
+    "description": "Teclado mecánico con switches silenciosos y retroiluminación LED.",
+    "features": [
+      "Switches silenciosos",
+      "Retroiluminación LED",
+      "Diseño compacto",
+      "Alta respuesta"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ratón Inalámbrico",
+    "price": 45.00,
+    "category": "computadoras",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_664578-MLA95683655616_102025-O.webp",
+    "description": "Ratón óptico inalámbrico con sensor de alta precisión.",
+    "features": [
+      "Sensor óptico",
+      "Diseño ergonómico",
+      "Batería de larga duración",
+      "Uso sin cables"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Camiseta Deportiva",
+    "price": 25.00,
+    "category": "ropa",
+    "image": "https://cicadex.com/wp-content/uploads/2020/01/350-33-Camiseta-Hom-Azul-ped-27-3-4-RH-copia.jpg",
+    "description": "Camiseta deportiva de tela transpirable.",
+    "features": [
+      "Tela transpirable",
+      "Secado rápido",
+      "Comodidad",
+      "Ideal para entrenamientos"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sudadera con Capucha",
+    "price": 50.00,
+    "category": "ropa",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_722345-MLM71458985768_092023-O-paquete-de-2-sudaderas-deportivas-capucha-gym-ejercicio.webp",
+    "description": "Sudadera con capucha en algodón suave.",
+    "features": [
+      "Algodón suave",
+      "Mantiene el calor",
+      "Diseño moderno",
+      "Uso casual o deportivo"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Lámpara LED de Escritorio",
+    "price": 35.00,
+    "category": "hogar",
+    "image": "https://asset.action.com/image/upload/t_digital_product_image/w_1080/25413694.webp",
+    "description": "Lámpara LED ajustable con niveles de brillo.",
+    "features": [
+      "Control táctil",
+      "Ajustable",
+      "Evita fatiga visual",
+      "Múltiples niveles de brillo"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Smartwatch Deportivo",
+    "price": 120.00,
+    "category": "electronica",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_999024-MLA99400959950_112025-O.webp",
+    "description": "Smartwatch con monitor de ritmo cardíaco y seguimiento de sueño.",
+    "features": [
+      "Monitor cardíaco",
+      "Seguimiento de sueño",
+      "Notificaciones",
+      "Resistente al agua"
+    ]
+  },
+
+  {
+    "id": 9,
+    "title": "iPhone 13 128GB",
+    "price": 699.00,
+    "category": "electronica",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQDjF3985TWBhGSdFFsmR3696mmTVcwkI-Q&s",
+    "description": "iPhone 13 con cámara dual y pantalla Super Retina XDR.",
+    "features": [
+      "128GB almacenamiento",
+      "Pantalla Super Retina XDR",
+      "Cámara dual 12MP",
+      "Chip A15 Bionic"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Samsung Galaxy A54",
+    "price": 349.00,
+    "category": "electronica",
+    "image": "https://dpjye2wk9gi5z.cloudfront.net/wcsstore/ExtendedSitesCatalogAssetStore/images/catalog/zoom/5001287-1212V1.jpg",
+    "description": "Smartphone con cámara triple y batería de larga duración.",
+    "features": [
+      "Cámara triple 50MP",
+      "Pantalla Super AMOLED",
+      "128GB almacenamiento",
+      "Batería 5000mAh"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Xiaomi Redmi Note 13",
+    "price": 229.00,
+    "category": "electronica",
+    "image": "https://resources.claroshop.com/medios-plazavip/publicidad/65d8e060c4cbe_smartphone-xiaomi-redmi-note-13-6gb-128gb-667-azuljpg.jpg",
+    "description": "Celular con gran autonomía y pantalla de 120Hz.",
+    "features": [
+      "Pantalla 120Hz",
+      "Cámara 108MP",
+      "Batería 5000mAh",
+      "Carga rápida"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Audífonos Bluetooth TWS Pro",
+    "price": 40.00,
+    "category": "electronica",
+    "image": "https://m.media-amazon.com/images/I/51jV63T4bNL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Audífonos inalámbricos con cancelación de ruido.",
+    "features": [
+      "Cancelación de ruido",
+      "Estuche de carga",
+      "Bluetooth 5.3",
+      "12 horas de batería"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Audífonos Gamer RGB",
+    "price": 65.00,
+    "category": "gaming",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe-2ki1IzhljzhK6gtiou82CZ3wM2zQ_vD-Q&s",
+    "description": "Auriculares gaming con sonido 7.1 y luces RGB.",
+    "features": [
+      "Sonido 7.1",
+      "Micrófono HD",
+      "Luces RGB",
+      "Compatible con PC y consolas"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Cargador Rápido USB-C 25W",
+    "price": 20.00,
+    "category": "electronica",
+    "image": "https://m.media-amazon.com/images/I/61cws8I2EzL._AC_UF894,1000_QL80_.jpg",
+    "description": "Cargador USB-C de carga rápida compatible con Android y iPhone.",
+    "features": [
+      "25W carga rápida",
+      "Protección contra sobrecarga",
+      "Compatible con la mayoría de dispositivos",
+      "Incluye cable USB-C"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Cargador Inalámbrico",
+    "price": 30.00,
+    "category": "electronica",
+    "image": "https://m.media-amazon.com/images/I/512GSqxCulL.jpg" ,
+    "description": "Cargador inalámbrico compatible con iPhone y Android.",
+    "features": [
+      "Carga rápida 15W",
+      "Diseño antideslizante",
+      "Luz LED suave",
+      "Compatible con funda"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Cable USB-C Reforzado 1m",
+    "price": 10.00,
+    "category": "electronica",
+    "image": "https://resources.claroshop.com/medios-plazavip/mkt/64bef17b1bb2b_empaq-tipocjpg.jpg",
+    "description": "Cable reforzado de alta resistencia para carga rápida.",
+    "features": [
+      "1 metro",
+      "Reforzado",
+      "Carga rápida",
+      "Compatible con Android"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Power Bank 20000mAh",
+    "price": 45.00,
+    "category": "electronica",
+    "image": "https://www.fotomecanica.mx/media/catalog/product/cache/243b585d5b053344651ac1ff3b7a4649/a/d/adata_ap20000d-dgt-5v-cgy.jpg",
+    "description": "Batería portátil de alta capacidad para cargar dos dispositivos a la vez.",
+    "features": [
+      "20000mAh",
+      "Salida dual USB",
+      "Indicador LED",
+      "Carga rápida"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Soporte para Celular Ajustable",
+    "price": 12.00,
+    "category": "hogar",
+    "image": "https://m.media-amazon.com/images/I/71hg20oI-ZL.jpg",
+    "description": "Soporte ajustable para celular ideal para escritorio.",
+    "features": [
+      "Ajustable",
+      "Base antideslizante",
+      "Compatible con cualquier smartphone",
+      "Material resistente"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Micrófono USB para Streaming",
+    "price": 39.00,
+    "category": "gaming",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxDB7a7TdbFrBXHATMaO0H68B6NNG7kIm8A&s",
+    "description": "Micrófono profesional para streaming y grabación.",
+    "features": [
+      "Calidad profesional",
+      "Filtro anti-pop",
+      "Base ajustable",
+      "Conexión USB"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Control Inalámbrico Gamer",
+    "price": 45.00,
+    "category": "gaming",
+    "image": "https://ss637.liverpool.com.mx/xl/1162388181.jpg",
+    "description": "Control inalámbrico compatible con PC, Android y consolas.",
+    "features": [
+      "Bluetooth",
+      "Vibración dual",
+      "Batería recargable",
+      "Ergonómico"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Pantalón Deportivo Unisex",
+    "price": 35.00,
+    "category": "ropa",
+    "image": "https://resources.claroshop.com/medios-plazavip/publicidad/6596fc5a5e128_1png.jpg",
+    "description": "Pantalón cómodo para ejercicio o uso diario.",
+    "features": [
+      "Tela ligera",
+      "Elástico ajustable",
+      "Secado rápido",
+      "Unisex"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Gorra Casual Ajustable",
+    "price": 15.00,
+    "category": "ropa",
+    "image": "https://ss522.liverpool.com.mx/xl/1180248982.jpg",
+    "description": "Gorra de uso diario con ajuste trasero.",
+    "features": [
+      "Ajustable",
+      "Resistente",
+      "Ligera",
+      "Disponible en varios colores"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Ventilador de Escritorio USB",
+    "price": 22.00,
+    "category": "hogar",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd96LCCo9vmq_BdUneqR4jld2RfAx45jGH3A&s",
+    "description": "Ventilador portátil con 3 niveles de velocidad.",
+    "features": [
+      "USB",
+      "3 velocidades",
+      "Silencioso",
+      "Ajustable"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Bill Gravity Falls",
+    "price": 18.00,
+    "category": "libros",
+    "image": "https://ss365.liverpool.com.mx/xl/1160491384_2p.jpg",
+    "description": "El Libro De Bill Gravity Falls de Alex Hirsch Tapa Dura.",
+    "features": [
+      "Bestseller",
+      "James Clear",
+      "304 páginas",
+      "Desarrollo personal"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "El Principito",
+    "price": 12.00,
+    "category": "libros",
+    "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/141571ed-1e35-41e4-8612-d6743eedf9c5.__CR0,142,1575,1575_PT0_SX300_V1___.png",
+    "description": "Clásico literario para todas las edades.",
+    "features": [
+      "Edición ilustrada",
+      "Fácil lectura",
+      "128 páginas",
+      "Clásico universal"
+    ]
+  }
+]
